@@ -40,7 +40,7 @@
 						<td>${ vo.name }</td>
 						<td>${ vo.date }</td>
 						<td><a
-							href="${pageContext.request.contextPath }/deleteform/${ vo.no }">삭제</a></td>
+							href="${pageContext.request.contextPath }/delete/${ vo.no }">삭제</a></td>
 					</tr>
 					<tr>
 						<td colspan=4>${ vo.message }</td>
